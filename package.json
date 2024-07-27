@@ -1,6 +1,5 @@
 {
-    "name": "calc",
-    "homepage": "http://maniruzzamanakash.github.io/react-calculator",
+    "name": "calc", 
     "version": "0.1.0",
     "private": true,
     "dependencies": {
