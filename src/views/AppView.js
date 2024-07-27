@@ -93,7 +93,7 @@ functionalButtonClick = (key) => {
 
             if(fullText.length > 0 ){
                 let newFullText = fullText.slice(0, -1);
-                if(newFullText == ""){
+                if(newFullText === ""){
                     newFullText = "0";
                 }
                 this.setState({ fullText : newFullText });
@@ -107,7 +107,7 @@ functionalButtonClick = (key) => {
             // Delete one by one character from fullText
             if(fullText.length > 0 ){
                 let newFullText = fullText.substring(1);
-                if(newFullText == ""){
+                if(newFullText === ""){
                     newFullText = "0";
                 }
                 this.setState({ fullText : newFullText });
